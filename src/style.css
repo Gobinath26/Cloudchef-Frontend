@@ -1,0 +1,142 @@
+#pynowbtn{
+    background-color:#8658A5 ;
+    color: white;
+    font-weight: bolder;
+    margin-right: 5px;
+}
+
+#paybtn,#acbtn,#addbtn{
+    
+    background-color: #8658A5;
+    color: white;
+    font-weight: bolder;
+}
+
+#xbtn{
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    border-radius: 50%;
+     margin-left: 85%;
+    margin-top: 3px;
+    font-size: 10px;
+    padding-right: 18px;
+}
+
+
+ 
+
+#ordercard{
+    background-color:#8658A5;
+    color: white;
+    
+}
+
+#ordercardcontainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#xtxt{
+    color: black;
+    font-weight: bolder;
+}
+
+#ordtxt{
+    color: white;
+    font-weight: bolder;
+}
+
+/* topbar */
+#tpbar{
+    height: 70px;
+     background-color: transparent;
+    box-shadow: 1px 1px 10px #8658A5;
+}
+
+#logregbtn{
+     float: right;
+     padding-top: 18px;
+}
+
+
+  
+  #accordionSidebar{
+    background-color: #8658A5;
+      
+  }
+
+  #additemconter{
+       margin-top: 100px;
+        
+  }
+
+  #orderstatuscrd,#cardbody{
+      background-color: #8658A5;
+      height: 250px;
+      color: white;
+      border-radius: 10px;
+  }
+
+  #cardbody:hover{ box-shadow: 2px 2px 50px #8658A5}
+
+  .btn-light{
+      font-weight: bold;
+  }
+
+  #custordcard{
+      background-color: #8658A5;
+      border-radius: 10px;
+  }
+
+  #cartcrd{
+    background-color: #8658A5;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+  }
+
+  #cartcrd:hover{
+    box-shadow: 1px 1px 20px #8658A5;
+  }
+
+  #loginbtn,#regbtn{
+    background-color: #8658A5;
+    color: white;
+    font-weight: bolder;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  #blink_me {
+    animation: blinker 3s linear infinite;
+    background-color: #8658A5;
+    color: white;
+    font-weight: bolder;
+    margin-left: 20px;
+    margin-right: 20px;
+
+  }
+  
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
+
+  #regbtns{
+    background-color: #8658A5;
+    color: white;
+  }
+
+  #linklogbtn{
+    text-decoration: none;
+  }
+
+  #accordionSidebar{
+    height: 100%;
+  }
+
+  #loginbtn{
+    text-decoration: none;
+  }
